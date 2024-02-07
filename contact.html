@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deja Brew Delivery Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="home.html" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="products.html">menu</a>
+            <a href="about.html">about us</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"><span class="quantity">0</span></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        
+        
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search for your flavors here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+    </header>
+ 
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <div class="row">
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Number">
+                </div>
+                <div class="inputBox">
+                    <span class="fa-solid fa-pen-to-square"></span>
+                    <input type="text" placeholder="Write message....">
+                </div>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://facebook.com/bigbrew.main" class="fab fa-facebook-f"></a>
+            <a href="https://x.com/GongChaTea?s=20" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/bigbrew.main?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-youtube"></a>
+        </div>
+
+        <div class="credit">&copy; <span>big brew</span> | all rights reserved</div>
+        <div>
+           <a href="#"; <span>Privacy Policy</span></a> | <a href="#"; <span>Terms of Service</span></a>  
+        </div>
+
+    </section>
+     
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+
+</body>
+
+</html>
